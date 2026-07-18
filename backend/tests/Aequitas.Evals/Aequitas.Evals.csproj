@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!--
+    Eval suite (spec §13). Hits real external APIs and LLM providers, so it is
+    NOT part of the PR gate — every test here carries [Trait("Category", "Eval")]
+    and ci.yml filters it out. evals.yml runs it on demand / weekly.
+  -->
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Aequitas.Core\Aequitas.Core.csproj" />
+    <ProjectReference Include="..\..\src\Aequitas.Infrastructure\Aequitas.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,8 @@
+# Normalize line endings so the repo is identical across Windows/Linux/CI.
+* text=auto eol=lf
+
+# Binary — never touch.
+*.png binary
+*.jpg binary
+*.ico binary
+*.pfx binary
