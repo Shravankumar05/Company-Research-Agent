@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Aequitas.Core\Aequitas.Core.csproj" />
+    <ProjectReference Include="..\Aequitas.Infrastructure\Aequitas.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="Aequitas.IntegrationTests" />
+  </ItemGroup>
+
+</Project>

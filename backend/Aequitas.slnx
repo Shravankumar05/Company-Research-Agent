@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Aequitas.Api/Aequitas.Api.csproj" />
+    <Project Path="src/Aequitas.Core/Aequitas.Core.csproj" />
+    <Project Path="src/Aequitas.Infrastructure/Aequitas.Infrastructure.csproj" />
+    <Project Path="src/Aequitas.Worker/Aequitas.Worker.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Aequitas.Evals/Aequitas.Evals.csproj" />
+    <Project Path="tests/Aequitas.IntegrationTests/Aequitas.IntegrationTests.csproj" />
+    <Project Path="tests/Aequitas.UnitTests/Aequitas.UnitTests.csproj" />
+  </Folder>
+</Solution>

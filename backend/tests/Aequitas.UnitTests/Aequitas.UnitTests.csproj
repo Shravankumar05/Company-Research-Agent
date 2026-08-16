@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Aequitas.Core\Aequitas.Core.csproj" />
+    <ProjectReference Include="..\..\src\Aequitas.Infrastructure\Aequitas.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

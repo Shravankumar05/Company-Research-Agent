@@ -1,0 +1,17 @@
+# gitleaks configuration (spec §11.1)
+# Runs in CI over full history and as a documented pre-commit hook.
+
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Placeholder-only files that are safe by construction"
+paths = [
+  '''\.env\.example$''',
+  '''appsettings\.example\.json$''',
+  '''.*\.tfvars\.example$''',
+]
+regexes = [
+  '''CHANGE_ME''',
+  '''UseDevelopmentStorage=true''',
+]
